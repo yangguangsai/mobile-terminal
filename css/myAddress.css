@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+html {
+	background-color: #eee;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #eee;
+	background-color: #fff;
+}
+
+.left {
+	display: flex;
+	justify-content: flex-start;
+	padding: 9.2vw 0 3.6vw 5.07vw;
+	font-size: 4.53vw;
+	color: #101010;
+}
+
+.right {
+	color: #000;
+	font-size: 4.53vw;
+	padding: 9.2vw 6.8vw 3.6vw 0;
+}
+
+/* 第一层 */
+.floor1 {
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #fff;
+}
+
+.floor1-name {
+	width: 80vw;
+	padding: 3.87vw 0 0 4.67vw;
+	font-size: 3.73vw;
+	color: #292929;
+}
+
+.floor1-iphone {
+	font-size: 3.73vw;
+	color: #292929;
+	padding: 3.07vw 0 0 4.67vw;
+}
+
+.floor1-address {
+	font-size: 3.73vw;
+	color: #292929;
+	padding: 3.07vw 0 0 4.67vw;
+	width: 81.87vw;
+}
+
+.operation {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid #ccc;
+	margin-top: 3.73vw;
+	background-color: #fff;
+}
+
+.floor1-lft img {
+	display: inline-block;
+	height: 2.67vw;
+	width: 2.67vw;
+	padding-left: 4.8vw;
+}
+
+.floor1-lft div {
+	padding: 4.67vw 0 4.53vw 1.6vw;
+	display: inline-block;
+	font-size: 3.47vw;
+	color: #030000;
+}
+
+.floor1-rgt {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.floor1-rgt img {
+	height: 5.73vw;
+	width: 5.43vw;
+	padding: 3.07vw 5.73vw 3.73vw 6.53vw;
+}
+
+.floor1-rgt .floor1-edit {
+	display: inline-block;
+	width: 21.47vw;
+	text-align: center;
+	background-color: #ff2732;
+	margin: 2.93vw 0 3.07vw 0;
+}
+
+.floor1-rgt .floor1-edit span {
+	display: inline-block;
+	line-height: 6.53vw;
+	font-size: 3.73vw;
+	color: #fff;
+}
+
+.gray {
+	height: 4.27vw;
+	width: 100vw;
+	background-color: #eee;
+}
+/* 添加地址 */
+.addAddress {
+	width: 100vw;
+	background-color: #ff2732;
+	text-align: center;
+	display: inline-block;
+	padding: 6vw 0;
+	position: fixed;
+	bottom: 0;
+}
+.addAddress span {
+	color: #fff;
+	font-size: 3.73vw;
+}

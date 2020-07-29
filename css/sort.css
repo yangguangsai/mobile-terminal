@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+header {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.left {
+	display: flex;
+	justify-content: flex-start;
+	padding: 9.33vw 0 5.6vw 6.93vw;
+	font-size: 4.53vw;
+	color: #101010;
+}
+
+.right {
+	color: #000;
+	font-size: 4.53vw;
+	padding: 9.33vw 2.87vw 5.6vw 0;
+}
+/* 搜索框 */
+.select-box {
+	display: flex;
+	height: 9vw;
+	margin: 3vw;
+	margin-top: 0;
+	border: 1px solid #cccccc;
+	border-radius: 2vw;
+	justify-content: center;
+	background-color: #f4f8f7;
+}
+
+.select-box .select-img img {
+	width: 4vw;
+	height: 4vw;
+	margin-right: 2vw;
+	margin-top: 3vw;
+}
+
+.select-box .select-word {
+	color: #7d7d7d;
+	font-size: 4vw;
+	margin-top: 2.5vw;
+}
+
+/* 第一部分 */
+.floor1 {
+	display: flex;
+	justify-content: space-between;
+	height: 350vw;
+}
+.floor1-lft {
+	width: 19.13vw;
+	border: 1px solid #eee;
+	border-right: none;
+}
+.floor1-lft ul li {
+	display: inline-block;
+	width: 20.13vw;
+	height: 12.3vw;
+}
+.floor1-lft ul li span {
+	display: inline-block;
+	color: #101010;
+	font-size: 3.47vw;
+	padding: 5.33vw 3.07vw 0;
+}
+.change {
+	color: #ff2732 !important;
+}
+/* 右边 */
+.selectCard {
+	display: none !important;
+}
+.floor1-rgt {
+	width: 80.27vw;
+	border: 1px solid #eee;
+}
+.floor1-rgt-top {
+	height: 30.53vw;
+	width: 100%;
+}
+.floor1-rgt-top img {
+	height: 26.67vw;
+	width: 71.2vw;
+	padding: 3.73vw 4.27vw;
+}
+/* 家纺床品 */
+.floor1-bed {
+	display: flex;
+	flex-wrap: wrap;
+}
+.line {
+	height: 0.13vw;
+	width: 71.33vw;
+	background-color: #eeeeee;
+	margin: 0 4.27vw;
+}
+.floor1-bed .floor1-bed-title {
+	width: 71.2vw;
+	color: #101010;
+	font-size: 3.47vw;
+	padding: 4.27vw 0 1.47vw 4.27vw;
+	font-weight: bold;
+}
+.floor1-bed .floor1-bed-content {
+	width: 14.47vw;
+	height: 22vw;
+	padding: 4.4vw 5.2vw;
+	text-align: center;
+}
+.floor1-bed-content img {
+	width: 8.8vw;
+	height: 10vw;
+	padding: 2.53vw;
+}
+.floor1-bed-content span {
+	display: block;
+	color: #101010;
+	font-size: 3.47vw;
+}
+
+/* 尾部 */
+footer {
+	width: 100vw;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between ;
+	position: fixed;
+	bottom: 0;
+	border-top: 1px solid #eee;
+}
+.footer-item {
+	display: inline-block;
+	padding: 2.8vw 5.87vw;
+	text-align: center;
+}
+.footer-item img {
+	height: 4.8vw;
+	width: 4.8vw;
+	padding: 1.07vw 0.66vw;
+}
+.footer-item span {
+	display: block;
+	font-size: 3.47vw;
+	color: #5f5f5f;
+}

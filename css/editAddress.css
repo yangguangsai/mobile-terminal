@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left {
+	display: flex;
+	justify-content: flex-start;
+	padding: 9.33vw 0 5.6vw 3.6vw;
+	font-size: 4.53vw;
+	color: #101010;
+}
+
+.right {
+	color: #000;
+	font-size: 4.53vw;
+	padding: 9.33vw 2.27vw 5.6vw 0;
+}
+/* 第一层 */
+.floor1 {
+	width: 100vw;
+	display: flex;
+	justify-content: flex-start;
+	overflow: hidden;
+}
+.floor1 .name {
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 4.27vw 0 3.6vw 5.07vw;
+	width: 46.13vw;
+	font-size: 3.73vw;
+	color: #292929;
+	border: 1px solid #ccc;
+	border-left: none;
+	border-bottom: none;
+}
+.floor1 .iphone {
+	display: inline-block;
+	box-sizing: border-box;
+	font-size: 3.73vw;
+	width: 57.73vw;
+	color: #292929;
+	padding: 4.27vw 28.93vw 3.6vw 2.67vw;
+	border: 1px solid #ccc;
+	border-left: none;
+	border-bottom: none;
+}
+/* 第二层 */
+
+.floor2 {
+	width: 100vw;
+	box-sizing: border-box;
+}
+
+.floor2 select {
+	margin: 2vw;
+	width: 25vw;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+}
+
+.floor2 fieldset {
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	border-left: none;
+}
+/* 第三层 */
+.floor3 {
+	width: 100vw;
+	border-bottom: 1px solid #ccc;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.floor3 input {
+	border: none;
+	padding: 4vw;
+	width: 100%;
+}

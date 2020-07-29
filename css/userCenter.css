@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+body,html {
+	background-color: #eee;
+}
+
+.box {
+	width: 100vw;
+	background-color: #ff2732;
+	border-radius: 2vw;
+	padding-bottom: 10vw;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left {
+	display: flex;
+	justify-content: flex-start;
+	padding: 10.27vw 0 4.13vw 3.33vw;
+	font-size: 4.53vw;
+	color: #101010;
+	color: #fff;
+}
+
+.right {
+	color: #000;
+	font-size: 4.53vw;
+	padding: 10.27vw 5.07vw 4.13vw 0;
+	color: #fff;
+}
+/* 现金 */
+.money {
+	width: 87.07vw;
+	margin: 0 6.67vw;
+	display: flex;
+	justify-content: space-around;
+}
+
+.monet-lft{
+	width:20vw;
+}
+.monet-lft img,
+.money-rgt img {
+	height: 3.33vw;
+	width: 3.07vw;
+}
+.monet-lft .money-lft-top span,
+.money-rgt .money-rgt-top span {
+	display: inline-block;
+	width: 7.07vw;
+	font-size: 4.27vw;
+	color: #fff;
+	margin-left: 1.6vw;
+}
+.monet-lft .money-lft-btm,
+.money-rgt .money-rgt-btm {
+	border: 1px solid #ccc;
+	border-radius: 0.67vw;
+	background-color: #E2C079;
+	margin-top: 2.27vw;
+}
+.monet-lft .money-lft-btm span,
+.money-rgt .money-rgt-btm span {
+	display: inline-block;
+	color: #fff;
+	font-size: 3.2vw;
+	padding: 0.93vw 2.4vw;
+}
+.money-center {
+	height: 12vw;
+	width: 12vw;
+	border: 1px solid #ccc;
+	border-radius: 6vw;
+	background-color: #fff;
+}
+.money-center img {
+	height: 6.8vw;
+	width: 6.53vw;
+	padding: 2.67vw;
+}
+
+.money-center .money-center-name {
+	display: inline-block;
+	width: 14.87vw;
+	color: #fff;
+	font-size: 3.47vw;
+}
+.money-center .money-center-number  {
+	display: inline-block;
+	width: 9.87vw;
+	color: #fff;
+	margin: 0.6vw 2vw;
+}
+/* 第一层 */
+
+.floor1 {
+	width: 93.33vw;
+	background-color: #fff;
+	margin: 2.93vw 3.33vw;
+	padding: 3vw 0;
+	border-radius: 2.33vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+.floor1-top {
+	width: 93.33vw;
+	display: flex;
+	justify-content: space-between;
+}
+.floor1-top .myOrder {
+	font-size: 3.73vw;
+	color: #000;
+	padding: 3.07vw 2.53vw;
+}
+.floor1-top .arrow {
+	height: 3.33vw;
+	width: 1.73vw;
+	padding: 3.2vw 4.7vw;
+	
+}
+.floor1-btm {
+	width: 93.33vw;
+	display: flex;
+	justify-content: space-around;
+}
+
+.item {
+	display: inline-block;
+}
+.item img {
+	height: 4.13vw;
+	width: 4.67vw;
+	display: block;
+	padding: 0 2.8vw 2.27vw 2.8vw;
+}
+.item span {
+	display: inline-block;
+	font-size: 3.47vw;
+	color: #000;
+}
+/* 第二层 */
+.floor2 {
+	width: 93.33vw;
+	background-color: #fff;
+	margin: 2.93vw 3.33vw;
+	border-radius: 2.33vw;
+}
+
+.floor2 .myServe {
+	font-size: 3.73vw;
+	color: #000;
+	padding: 3.07vw 2.53vw 0 2.53vw;
+}
+.floor2-center {
+	display: flex;
+	flex-wrap: wrap;
+}
+.type {
+	display: inline-block;
+	width: 18vw;
+	padding: 2.73vw 0 0 4.13vw;
+	text-align: center;
+}
+.type img {
+	height: 4.13vw;
+	width: 4.67vw;
+	display: block;
+	padding: 3.07vw 5.07vw 2.27vw 6.4vw;
+}
+.type span {
+	display: inline-block;
+	color: #000;
+	width: 18vw;
+	font-size: 3.47vw;
+}
+.floor2 .floor2-btm {
+	padding-bottom: 5vw;
+}
+/* 尾部 */
+.footer {
+	width: 100vw;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between ;
+	position: fixed;
+	bottom: 0;
+	z-index: 100;
+}
+.footer-item {
+	display: inline-block;
+	padding: 2.8vw 5.87vw;
+	text-align: center;
+}
+.footer-item img {
+	height: 4.8vw;
+	width: 4.8vw;
+	padding: 1.07vw 0.66vw;
+}
+.footer-item span {
+	display: block;
+	font-size: 3.47vw;
+	color: #5f5f5f;
+}

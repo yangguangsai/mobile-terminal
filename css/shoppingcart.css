@@ -1,0 +1,252 @@
+@charset "utf-8";
+/* 点击之后 图片覆盖 */
+.imgHover {
+	background: url(../img/shopCart/check.png) no-repeat center center;
+	height: 2.67vw;
+	width: 2.67vw;
+}
+/* 头部 */
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left {
+	display: flex;
+	justify-content: flex-start;
+	padding: 10vw 0 3.6vw 3.33vw;
+	font-size: 4.53vw;
+	color: #101010;
+}
+
+.right {
+	color: #000;
+	font-size: 4.53vw;
+	padding: 10vw 5.07vw 3.6vw 0;
+}
+
+/* 黑色边框 */
+.gray {
+	height: 2vw;
+	width: 100vw;
+	background-color: #efefef;
+}
+
+/* 商品详情 */
+
+.products-bed {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 4.67vw;
+}
+
+.selected-bed {
+	height: 2.67vw;
+	width: 2.67vw;
+	border: 1px solid #d2d2d2;
+	font-size: 1.33vw;
+	border-radius: 50%;
+	margin: 7.8vw 1.73vw 0 2.93vw;
+}
+
+.products-list-bed {
+	display: flex;
+	justify-content: space-between;
+	padding: 2vw 0;
+}
+
+.products-img-bed img {
+	width: 19.07vw;
+	height: 22.93vw;
+}
+
+.products-title-bed {
+	width: 63.6vw;
+	font-size: 3.47vw;
+	color: #000;
+	padding: 1.47vw 5.6vw 0 3.6vw;
+}
+
+.introduce-bed {
+	font-size: 3.2vw;
+	color: rgba(38, 38, 38, 0.6);
+	padding: 2.53vw 0 2.53vw 3.47vw;
+}
+
+.products-money-bed {
+	display: flex;
+	justify-content: space-between;
+}
+
+.products-money-bed div {
+	display: inline-block;
+}
+
+.money-bed {
+	color: #ff2732;
+	font-size: 3.73vw;
+	font-weight: bold;
+	padding-left: 3.47vw;
+}
+
+.button-bed div {
+	height: 3.73vw;
+	width: 7.6vw;
+	text-align: center;
+	line-height: 3.73vw;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.button-bed div:last-child {
+	margin-right: 3.47vw;
+}
+/* 大家都在买 灰色地带 */
+.gray-all {
+	height: 2vw;
+	width: 100vw;
+	background-color: #efefef;
+	margin-top: 5.2vw;
+}
+/* 大家都在买 */
+.allBuy {
+	display: flex;
+	justify-content: center;
+}
+.allBuy .allBuy-title {
+	color: #000;
+	font-size: 3.73vw;
+	padding: 5.33vw 0 5.47vw 0;
+}
+/* 商品列表 */
+.products-bottom {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.products-bottom .products-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.products-bottom .products-list .products-img {
+	width: 27.2vw;
+	height: 26.93vw;
+	margin: 0 3.47vw 3.6vw 3.2vw;
+}
+
+.products-bottom .products-list .products-img img {
+	height: 25.33vw;
+	width: 26.8vw;
+}
+
+.products-bottom .products-title {
+	width: 60.8vw;
+	font-size: 3.47vw;
+	color: #000;
+}
+
+.products-bottom .products-money {
+	padding: 3.6vw 0 2.8vw;
+}
+
+.products-bottom .products-money div {
+	display: inline-block;
+}
+
+.products-bottom .products-money-img img {
+	height: 2.53vw;
+	width: 2.4vw;
+}
+
+.products-bottom .rebate {
+	font-size: 3.2vw;
+	color: #ff2732;
+}
+
+.products-bottom .landedPrice {
+	width: 13.73vw;
+	text-align: center;
+	background-color: red;
+	border: 1px solid red;
+	border-radius: 1.87vw;
+	color: #fff;
+	margin: 0 2.07vw 0 3.87vw;
+}
+
+.products-bottom .price {
+	color: #000;
+	font-weight: bold;
+	font-size: 3.73vw;
+}
+
+.products-bottom .products-cheap {
+	padding-bottom: 2.3vw;
+}
+
+.products-bottom .products-cheap div {
+	display: inline-block;
+}
+
+.products-bottom .products-cheap img {
+	width: 2.67vw;
+	height: 2.93vw;
+}
+
+.products-bottom .products-cheap .gain {
+	font-size: 3.2vw;
+	color: #ff2732;
+}
+
+.products-bottom .products-cheap .brokerage {
+	font-size: 2.67vw;
+	color: #6e6e6e;
+	padding-left: 3.2vw;
+}
+
+.products-bottom .split-line {
+	height: 0.13vw;
+	width: 62.8vw;
+	background-color: rgba(110, 110, 110, 0.2);
+}
+/* 尾脚 */
+.footer {
+	display: flex;
+	justify-content: space-between;
+	width: 100vw;
+	position: fixed;
+	bottom: 0;
+	background-color: #fff;
+}
+.footer div {
+	display: inline-block;
+}
+.selected {
+	height: 2.67vw;
+	width: 2.67vw;
+	border: 1px solid #d2d2d2;
+	font-size: 1.33vw;
+	border-radius: 50%;
+	margin: 0 1.73vw 0 2.93vw;
+}
+.footer-lft {
+	padding: 4vw 3vw;
+}
+.footer-lft span {
+	font-size: 3.47vw;
+	color: rgba(0,0,0,0.6);
+}
+.footer-rgt .footer-total {
+	font-size: 3.47vw;
+	font-weight: bold;
+	padding-right: 2.4vw;
+	color: #ff2732;
+}
+.footer-rgt .order {
+	height: 13.47vw;
+	width: 23.47vw;
+	background-color: #ff2732;
+	line-height: 13.47vw;
+	text-align: center;
+	color: #f8f8f8;
+	font-size: 3.47vw;
+	margin-right: 5vw;
+}
